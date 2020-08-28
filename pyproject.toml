@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-cgi"
-version = "0.1.1"
+version = "0.1.2"
 description = "Run Django with CGI"
 authors = ["Enrico Barzetti <enricobarzetti@gmail.com>"]
 readme = "README.rst"
