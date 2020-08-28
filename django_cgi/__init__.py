@@ -1,7 +1,10 @@
 import os
 import sys
+from importlib.metadata import version
 
 from django.conf import settings
+
+__version__ = version(__package__)
 
 
 def get_cgi_handler_code():
