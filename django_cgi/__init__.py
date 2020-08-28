@@ -12,7 +12,6 @@ from {} import {}
 
 wsgiref.handlers.CGIHandler().run(application)
 """
-    os.system("""osascript -e 'tell application "Terminal"' -e 'activate' -e 'end tell'""");import pudb; pu.db
     python = os.path.join(sys.prefix, 'bin', 'python')
     split = settings.WSGI_APPLICATION.split('.')
     module = '.'.join(split[:-1])
